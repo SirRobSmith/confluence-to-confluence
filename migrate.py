@@ -10,14 +10,14 @@ from os.path import isfile, join
 from atlassian import Confluence
 
 # Variables to govern how the tool works with the source system
-SOURCE_SPACE_KEY          = "DM"
+SOURCE_SPACE_KEY          = os.environ['SOURCE_SPACE_KEY']
 SOURCE_SERVER             = os.environ['SOURCE_SERVER']
 SOURCE_USER               = os.environ['SOURCE_USER']
 SOURCE_PASS               = os.environ['SOURCE_PASS']
 
 # Variables to govern how the tool works with the destination system
-DESTINATION_SPACE_KEY     = "DE"
-DESTINATION_ROOT_PAGE     = ""
+DESTINATION_SPACE_KEY     = os.environ['DESTINATION_SPACE_KEY']
+DESTINATION_ROOT_PAGE     = os.environ['DESTINATION_ROOT_PAGE']
 DESTINATION_SERVER        = os.environ['DESTINATION_SERVER']
 DESTINATION_USER          = os.environ['DESTINATION_USER']
 DESTINATION_PASS          = os.environ['DESTINATION_PASS']
