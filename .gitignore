@@ -1,0 +1,4 @@
+*.log
+validate.py
+cache/*
+.venv
