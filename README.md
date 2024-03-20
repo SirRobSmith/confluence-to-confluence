@@ -20,5 +20,5 @@ Should you feel motivated to use this tool, the folllowing setup is required.
     7. DESTINATION_SPACE_KEY : The space-key for your destination site. 
     8. DESTINATION_USER : Your basic auth username for the destination site
     9. DESTINATION_PASS : Your basic auth password / api key
-8. With these environment variables defined, you may run the code with 'python3 migrate.py' 
+8. With these environment variables defined, you may run the code with 'python3 migrate.py'  
 9. Log files are emited, by default to 'migrate.log'
